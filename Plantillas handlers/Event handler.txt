@@ -1,0 +1,9 @@
+const { InteractionType } = require('discord.js');
+
+module.exports = {
+    name: '',
+    once: true,
+    async execute(interaction, client) {
+        
+    },
+};

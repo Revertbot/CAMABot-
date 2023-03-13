@@ -1,0 +1,17 @@
+const { ChatInputCommandInteraction, SlashCommandBuilder, EmbedBuilder } = require('discord.js');
+
+module.exports = {
+    data: new SlashCommandBuilder()
+    .setName('')
+    .setDescription('')
+    .addStringOption((option) => option.setName(`usuario`).setDescription(`Usuario el cual quieres obtener informacion`).setRequired(false)),
+
+    /**
+     * 
+     * @param {ChatInputCommandInteraction} interaction 
+     */
+
+    async execute(interaction, client) {
+        const usuario = interaction.options.getString(`usuario`);
+    },
+};
