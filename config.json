@@ -1,0 +1,5 @@
+{
+    "token": "(tu token)",
+    "mongodb": "mongodb+srv://Revert:iwMZGH3vFZONkTwn@camalandbotdb.1tysshn.mongodb.net/?retryWrites=true&w=majority",
+    "prefix": "cb!"
+}
